@@ -28,7 +28,7 @@ $i++;
 /* Authentication type */
 $cfg['Servers'][$i]['auth_type'] = 'cookie';
 /* Modify the Server parameters */
-$cfg['Servers'][$i]['host'] = 'mysqldb1';
+$cfg['Servers'][$i]['host'] = 'mysql-sample-app.apps-crc.testing';
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = false;
 
